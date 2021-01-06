@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttons_background_category"
+    tools:context=".CategoryActivity">
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="16dp"
+        android:width="150dp"
+        android:background="@drawable/ovallestir"
+        android:text="Hıstory"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_graphics" />
+
+    <Button
+        android:id="@+id/btn_english"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="128dp"
+        android:width="150dp"
+        android:background="@drawable/ovallestir"
+        android:text="ENGLISH"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_graphics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_computers" />
+
+    <Button
+        
+        android:id="@+id/btn_graphics"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="19dp"
+        android:width="150dp"
+        android:background="@drawable/ovallestir"
+        android:text="Graphıcs"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_english" />
+
+    <Button
+
+        
+        android:id="@+id/btn_computers"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ovallestir"
+        android:text="Computers"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_english"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_maths"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:width="150dp"
+        android:background="@drawable/ovallestir"
+        android:text="MATH"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_english"
+        app:layout_constraintStart_toStartOf="@+id/btn_english"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
